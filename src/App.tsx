@@ -7,9 +7,15 @@ const Title = styled.h1`
 
 function App() {
   return (
-    <div>
+    <div className="container text-center">
       <Title>Mi primera web</Title>
-      <p className='lead'>Hecha con React + TypeScript</p>
+      <p className='lead'>
+        Hecha con React + TypeScript
+      </p>
+
+      <button className="btn btn-primary">
+        Botón Bootstrap
+      </button>
     </div>
   )
 }
